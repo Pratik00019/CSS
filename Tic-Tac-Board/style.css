@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E8F1F2;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    height: 310px;
+    width: 310px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #B3EFB2;
+    border-radius: 15px;
+}
+    
+
