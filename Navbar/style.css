@@ -1,0 +1,46 @@
+/* Usually this padding and margin can be sometimes added by browser for example if we add
+button tag in our html file then browser will add some padding and margin to it. So to avoid 
+this we can use this css code to remove padding and margin from all elements. */
+
+/* Block Elements:
+
+Respect both vertical and horizontal margins.
+Take up the full width available by default.
+Inline Elements:
+
+Do not respect vertical margins i.e top and bottom margins.
+Only take up as much width as their content.
+Cannot set height and width.
+
+Inline-Block Elements:
+Also does not repect hieght and width. 
+
+Respect both vertical and horizontal margins.
+Allow width and height to be set while sitting inline with other elements. */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+
+#logo{
+    background-color: #f08804;
+}
+
+button{
+    background-color: #f08804;
+    cursor: pointer;
+}
+

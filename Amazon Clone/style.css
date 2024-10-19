@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 113px;
+   display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    height: 50px;
+    width: 113px;
+    background-image: url("../Logo/amazon-logo.png.webp");
+    background-size: cover;
+    margin-bottom: 9px;
+}
+
+.border{
+    border: 2px solid transparent;   
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+.arrangeLocation{
+    padding: 0px 9px;
+}
+.location-attr-1{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.location-attr-2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    background-color: #febd69;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    font-size: 0.7rem;
+}
+
+.navsecond{
+    font-size: 1rem;
+    font-weight: 700px;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd69;
+}
+
+i{
+    font-size: 30px;
+}
+
+/* Nav Bottom */
+
+.nav-bottom{
+    height: 39px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-bottom-1{
+    height: 39px;
+    width: 60px;
+    font-weight: 600px;
+    display: flex;
+    align-items: center;
+}
+.aligning-menu{
+    padding: 3px 0px 0px 6px;
+    display: flex;
+}
+.nav-bottom-2{
+    width: 777px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    padding-right: 170px;
+}
+p{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* hero section */
+
+.hero-main{
+    background-image: url("../Logo/kitchen-display-img.jpg");
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1000px;
+    height: 40px;
+    background-color: #F5F6F6;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* boxes section */
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffc5;
+    padding: 10px;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.box{
+    width: 22%;
+    height: 300px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 9px ;
+    margin: 5px 0px 7px 0px ;
+}
+
+.container-img-1{
+    background-image: url("../Logo/Toys.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 240px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+.container1{
+    display: flex;
+    height: 260px;
+    width: 260px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    margin-left: 23px;
+}
+/* We can create one container-img and use style for URLS */
+.container-img-2{
+    background-image: url("../Logo/ps5.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+.container-img-3{
+    background-image: url("../Logo/decor.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+.container-img-4{
+    background-image: url("../Logo/smartwatches.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+.container-img-5{
+    background-image: url("../Logo/Books.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+.container-img-6{
+    background-image: url("../Logo/makeup.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+.container-img-7{
+    background-image: url("../Logo/Powders.jpg");
+    background-size: cover;
+    height: 230px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+.container-img-8{
+    background-image: url("../Logo/Premium Watches.jpg");
+    background-size: contain;
+    height: 230px;
+    width: 250px;
+    border: 2px solid black;
+    margin-left: 23px;
+}
+
+/* FOOTER */
+
+.foot-panel1{
+    width: 100%;
+    height: 40px;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer{
+    margin-top: 15px;
+}
+ul a {
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #dddddd;
+    font-size: 0.85rem;
+}
+ ul p{
+    font-size: 16px;
+    font-weight: 600;
+ }
+a:hover{
+    text-decoration: underline;
+}
+.foot-panel2 {
+    display: flex;
+    background-color: #131a22;
+    color: white;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #37475A;
+}
+
+.foot-panel3{
+    height :70px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img{
+    height: 50px;
+    width: 113px;
+    background-image: url("../Logo/amazon-logo.png.webp");
+    background-size: cover;
+}
+
+.last-container{
+    background-color: #131A22;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px
+}
+
+.last-footer1 p{
+    color: #dddddd;;
+    font-size: 0.8rem;
+}
+
+.last-footer1 a{
+    color: #dddddd;;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.last-footer2{
+    color: #dddddd;;
+    font-size: 0.8rem;
+}
+
+.last-footer1 a:hover{
+    text-decoration: underline;
+}
